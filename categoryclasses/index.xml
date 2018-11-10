@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CategoryClasses on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</title>
-    <link>https://nostalgic-stallman-74a22f.netlify.com/categoryclasses/</link>
+    <link>/categoryclasses/</link>
     <description>Recent content in CategoryClasses on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     
-	<atom:link href="https://nostalgic-stallman-74a22f.netlify.com/categoryclasses/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categoryclasses/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
