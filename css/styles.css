@@ -677,12 +677,12 @@ button.btn--google:hover,
   top: 0px;
   right: 5px;
 }
-.lang-switcher ul li {
+.lang-switcher li {
   width: auto;
   display: inline;
  
 }
-.lang-switcher ul li a {
+.lang-switcher li a {
   color: #fff; 
 }
 
