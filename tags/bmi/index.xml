@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bmi on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</title>
+    <title>Bmi on </title>
     <link>/tags/bmi/</link>
-    <description>Recent content in Bmi on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</description>
+    <description>Recent content in Bmi on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
+    <copyright>Everything is mine</copyright>
     
 	<atom:link href="/tags/bmi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Υπολογισμός Δείκτη Μάζας Σώματος (BMI)</title>
-      <link>/apps/bmi/</link>
+      <link>/apps/health/bmi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/apps/bmi/</guid>
+      <guid>/apps/health/bmi/</guid>
       <description>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</description>
     </item>

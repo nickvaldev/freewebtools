@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</title>
+    <title>Tags on </title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>el</language>
+    <copyright>Everything is mine</copyright>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,6 +16,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/bmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vat</title>
+      <link>/tags/vat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vat/</guid>
       <description></description>
     </item>
     
@@ -106,15 +115,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Φπα</title>
-      <link>/tags/%CF%86%CF%80%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CF%86%CF%80%CE%B1/</guid>
       <description></description>
     </item>
     
