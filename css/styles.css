@@ -671,11 +671,20 @@ button.btn--google:hover,
   -ms-transition: background-color .3s ease-in-out;
   transition: background-color .3s ease-in-out;
 }
+
+.lang-switcher {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
 .lang-switcher ul li {
   width: auto;
   display: inline;
-}
  
+}
+.lang-switcher ul li a {
+  color: #fff; 
+}
 
 /** 04. FORMS
 -------------------------------------------------- **/
