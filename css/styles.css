@@ -675,11 +675,10 @@ button.btn--google:hover,
 .lang-switcher {
   position: absolute;
   top: 0px;
-  right: 5px;
+  right: 15px;
 }
 .lang-switcher li {
   width: auto;
-  display: inline;
  
 }
 .lang-switcher li a {

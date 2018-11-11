@@ -282,21 +282,6 @@
   </url>
   
   <url>
-    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
-                />
-  </url>
-  
-  <url>
     <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -308,6 +293,21 @@
                 rel="alternate"
                 hreflang="el"
                 href="/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
+                />
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
                 />
   </url>
   
