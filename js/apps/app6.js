@@ -2,7 +2,16 @@
 * Author: Dynamic Drive at http://www.dynamicdrive.com/
 * Visit http://www.dynamicdrive.com/ for full source code
 */
-
+let wordsTitle,charactersTitle,copied;
+if (whatLang() == "el") {
+	wordsTitle = "Λέξεις";
+	charactersTitle = "Χαρακτήρες";
+	copied = "Αντιγράφηκε!";
+}else {
+	wordsTitle = "Words";
+	charactersTitle = "Characters";
+	copied = "Copied!";
+}
 
 (function(){
             var wordcounter = document.getElementById('app6_textarea_id_0')
@@ -12,7 +21,7 @@
             function countemwords(){
               words = (wordcounter.value == '')? 0 : wordcounter.value.split(' ').length
               chars = wordcounter.value.length
-              counteroutput.innerHTML = 'Λέξεις: <span class="app6_textarea_counters_class_0">' + words + '</span> Χαρακτήρες: <span class="app6_textarea_counters_class_0">' + chars + '</span>'
+              counteroutput.innerHTML = wordsTitle + ': <span class="app6_textarea_counters_class_0">' + words + '</span> ' + charactersTitle + ': <span class="app6_textarea_counters_class_0">' + chars + '</span>'
            
             }
           
@@ -41,7 +50,7 @@ var fieldtoclipboard = {
 			'position:absolute; background:black; color:white; padding:4px;z-index:10000;'
 			+ 'border-radius:3px; font-size:12px;box-shadow:3px 3px 3px rgba(0,0,0,.4);'
 			+ 'opacity:0;transition:opacity 0.3s'
-		tooltip.innerHTML = 'Αντιγράφηκε!'
+		tooltip.innerHTML = copied;
 		this.tooltipobj = tooltip
 		document.body.appendChild(tooltip)
 	},

@@ -9,6 +9,20 @@
 
         const app2_se_el = document.getElementById("app2_select_id_1");
 
+        let finalResults,error1,error2,error3;
+        if (whatLang() == "el") {
+          finalResults = 'Τελικά Αποτελέσματα';
+          error1 = "Διαλέχτε διαφορετικές μονάδες μέτρησης";
+          error2 = "Δώστε αριθμό βάρους μεγαλύτερο από το μηδέν";
+          error3 = "Δώστε αριθμό βάρους";
+        }else {
+          finalResults = "Final Results";
+          error1 = "The units you chose are the same. Choose differently!";
+          error2 = "The input number must be over zero";
+          error3 = "Enter the weight number";
+        }
+        
+
 
 
         document.getElementById('app2_form').addEventListener('submit', app2_calculateResults);
@@ -23,21 +37,6 @@
           var app2_output ;
           var app2_aposign;
           var app2_sesign;
-          // console.log(app2_apo_val);
-          // console.log(app2_apo_text);
-          // console.log(app2_se_val);
-          // console.log(app2_seoutnum);
-          // console.log(app2_se_text);
-          // console.log(app2_input);
-          // console.log(app2_output);
-   
-          
-     
-          // console.log(app2_seout);
-          // console.log(app2_seoutnum);
-          // console.log(app2_input_el);
-          // console.log(app2_apo_el);
-          // console.log(app2_se_el);
               
           
           if (app2_validation()) {
@@ -161,7 +160,7 @@
                 break;
             }
             
-            document.querySelector(".results .panel-title").innerHTML = 'Τελικά Αποτελέσματα';
+            document.querySelector(".results .panel-title").innerHTML = finalResults;
             app2_apoout.innerHTML = app2_apo_text;
             app2_seout.innerHTML = app2_se_text;
             app2_apooutnum.innerHTML = app2_input;
@@ -183,7 +182,7 @@
           var app2_apo_val = app2_apo_el.options[app2_apo_el.selectedIndex].value;
           var app2_se_val = app2_se_el.options[app2_se_el.selectedIndex].value;
           if (app2_apo_val == app2_se_val){
-            showError("Διαλέχτε διαφορετικές μονάδες μέτρησης");
+            showError(error1);
                return false;
           }
           
@@ -192,11 +191,11 @@
           }
 
           else if (parseFloat(app2_input_el.value) <= 0){
-                    showError("Δώστε αριθμό βάρους μεγαλύτερο από το μηδέν");
+                    showError(error2);
                    clearForm();
                    return false;
           }else {
-            showError("Δώστε αριθμό βάρους");
+            showError(error3);
             clearForm();
           }
           

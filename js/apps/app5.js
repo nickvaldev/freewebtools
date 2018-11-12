@@ -10,6 +10,16 @@ const app5_seoutnum = document.getElementById("app5_results_span_content_1");
 const app5_input_el = document.getElementById("app5_input_id_0");
         
 
+let finalResults,error1,error2;
+if (whatLang() == "el") {
+	finalResults = 'Τελικά Αποτελέσματα';
+	error1 = "Δώστε αριθμό θερμοκρασίας";
+	error2 = "Διαλέχτε διαφορετικές μονάδες μέτρησης!";
+}else {
+	finalResults = "Final Results";
+	error1 = "Enter the temperature";
+	error2 = "The units you chose are the same. Choose differently!";
+}
 
 
       
@@ -86,7 +96,7 @@ const app5_input_el = document.getElementById("app5_input_id_0");
                 break;
             }
             
-            document.querySelector(".results .panel-title").innerHTML = 'Τελικά Αποτελέσματα';
+            document.querySelector(".results .panel-title").innerHTML = finalResults;
             app5_apoout.innerHTML = app5_apo_text;
             app5_seout.innerHTML = app5_se_text;
             app5_apooutnum.innerHTML = app5_input;
@@ -108,11 +118,11 @@ const app5_input_el = document.getElementById("app5_input_id_0");
           var app5_apo_val = app5_apo_el.options[app5_apo_el.selectedIndex].value;
           var app5_se_val = app5_se_el.options[app5_se_el.selectedIndex].value;
           if (app5_input_el.value == '') {
-            showError("Δώστε αριθμό θερμοκρασίας");
+            showError(error1);
             return false;
           }
           else if (app5_apo_val == app5_se_val){
-            showError("Διαλέχτε διαφορετικές μονάδες μέτρησης");
+            showError(error2);
                return false;
           } else {
             return true;

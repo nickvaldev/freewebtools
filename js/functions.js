@@ -1,4 +1,14 @@
 // FUNCTIONS
+function whatLang() {
+let lang = window.location.href;
+if (lang.includes('/el/')) { 
+  lang = "el";
+  return lang;
+} else {
+  lang = "en";
+  return lang;
+}
+}
 
 // function navMenuHref() {
 //   let df = document.createDocumentFragment();

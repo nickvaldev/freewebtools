@@ -1,4 +1,13 @@
 // app4   -    Υπολογισμός Aποπληρωμής Δανείου
+let finalResults,error1,error2;
+if (whatLang() == "el") {
+	finalResults = 'Τελικά Αποτελέσματα';
+	error1 = 'Ελέγξτε τους αριθμούς που δώσατε';
+}else {
+	finalResults = "Final Results";
+	error1 = "Check again the information you entered";
+}
+
 
 document.getElementById('app4_form').addEventListener('submit', app4_calculateResults);
 function app4_calculateResults(e) {
@@ -25,7 +34,7 @@ function app4_calculateResults(e) {
       app4_monthly_payments.innerHTML = monthly.toFixed(2);
       app4_total_payment.innerHTML = (monthly * calculatedPayments).toFixed(2);
       app4_total_interest.innerHTML = ((monthly * calculatedPayments)-principal).toFixed(2);
-      document.querySelector(".results .panel-title").innerHTML = 'Τελικά Αποτελέσματα';
+      document.querySelector(".results .panel-title").innerHTML = finalResults;
   
       // Show results
       // document.getElementById('app4_results').style.display = 'block';
@@ -34,7 +43,7 @@ function app4_calculateResults(e) {
       // document.getElementById('loading').style.display = 'none';
   
     } else {
-      showError('Ελέγξτε τους αριθμούς που δώσατε');
+      showError(error1);
     }
     e.preventDefault();
 }
