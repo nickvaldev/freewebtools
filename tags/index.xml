@@ -11,11 +11,83 @@
     
     
     <item>
+      <title>Bank</title>
+      <link>/tags/bank/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bmi</title>
       <link>/tags/bmi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/bmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculation</title>
+      <link>/tags/calculation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/calculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characters</title>
+      <link>/tags/characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/characters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversion</title>
+      <link>/tags/conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installments</title>
+      <link>/tags/installments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/installments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repayment</title>
+      <link>/tags/repayment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/repayment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temperature</title>
+      <link>/tags/temperature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>/tags/text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/text/</guid>
       <description></description>
     </item>
     
@@ -29,101 +101,20 @@
     </item>
     
     <item>
-      <title>Αποπληρωμή</title>
-      <link>/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/</link>
+      <title>Weight</title>
+      <link>/tags/weight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/</guid>
+      <guid>/tags/weight/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Βάρος</title>
-      <link>/tags/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/</link>
+      <title>Words</title>
+      <link>/tags/words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Δμζ</title>
-      <link>/tags/%CE%B4%CE%BC%CE%B6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%B4%CE%BC%CE%B6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Δόσεις</title>
-      <link>/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Θερμοκρασία</title>
-      <link>/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Κείμενο</title>
-      <link>/tags/%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%BF/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%BF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Λέξεις</title>
-      <link>/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Μετατροπή</title>
-      <link>/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Τράπεζα</title>
-      <link>/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Υπολογισμός</title>
-      <link>/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Χαρακτήρες</title>
-      <link>/tags/%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B5%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B5%CF%82/</guid>
+      <guid>/tags/words/</guid>
       <description></description>
     </item>
     

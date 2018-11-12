@@ -21,7 +21,7 @@ A small river named Duden flows by their place and supplies it with the necessar
     </item>
     
     <item>
-      <title>Μετατροπή Μεγεθών Βάρους</title>
+      <title>Conversion of weight units</title>
       <link>/apps/converters/weight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@ A small river named Duden flows by their place and supplies it with the necessar
     </item>
     
     <item>
-      <title>Υπολογισμός Δείκτη Μάζας Σώματος (BMI)</title>
+      <title>Calculation of the Body Mass Index (BMI)</title>
       <link>/apps/health/bmi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -41,7 +41,7 @@ A small river named Duden flows by their place and supplies it with the necessar
     </item>
     
     <item>
-      <title>Υπολογισμός Aποπληρωμής Δανείου</title>
+      <title>Calculation of Loan Repayment</title>
       <link>/apps/economy/loan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -51,7 +51,7 @@ A small river named Duden flows by their place and supplies it with the necessar
     </item>
     
     <item>
-      <title>Μετατροπή Μεγεθών Θερμοκρασίας</title>
+      <title>Conversion of temperature units</title>
       <link>/apps/converters/temperature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@ A small river named Duden flows by their place and supplies it with the necessar
     </item>
     
     <item>
-      <title>Μέτρηση των λέξεων και των χαρακτήρων ενός κειμένου</title>
+      <title>Calculation of words and characters of a text</title>
       <link>/apps/words/words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

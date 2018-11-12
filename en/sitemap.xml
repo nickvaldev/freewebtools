@@ -122,6 +122,11 @@
   </url>
   
   <url>
+    <loc>/tags/bank/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/bmi/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -134,6 +139,11 @@
                 hreflang="en"
                 href="/tags/bmi/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tags/calculation/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -167,23 +177,38 @@
   </url>
   
   <url>
+    <loc>/tags/characters/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/conversion/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/conversions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/economy/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
+    <loc>/categories/health/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/"
-                />
+  </url>
+  
+  <url>
+    <loc>/tags/installments/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/repayment/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -202,113 +227,28 @@
   </url>
   
   <url>
+    <loc>/tags/temperature/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/text/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/vat/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/</loc>
+    <loc>/tags/weight/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/"
-                />
   </url>
   
   <url>
-    <loc>/tags/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/</loc>
+    <loc>/tags/words/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%B4%CE%BC%CE%B6/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%B4%CE%BC%CE%B6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%B4%CE%BC%CE%B6/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%BF/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%BF/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%BF/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
-                />
   </url>
   
   <url>
@@ -338,81 +278,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/categories/%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B5%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/tags/%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B5%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%AE%CF%81%CE%B5%CF%82/"
                 />
   </url>
   
