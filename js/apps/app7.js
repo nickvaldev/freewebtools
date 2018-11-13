@@ -1,11 +1,13 @@
 
-  let finalResults,error1,yearsText,daysText,monthsText;
+  let finalResults,error1,error2,yearsText,daysText,monthsText;
   if (whatLang() == "el") {
     finalResults = 'Τελικά Αποτελέσματα';
     error1 = "Η πρώτη ημερομηνία να προηγείται της δεύτερης ημερομηνίας";
+    error2 = "Είσάγετε ημερομηνία γέννησης";
   }else {
     finalResults = "Final Results";
     error1 = "The first Date must be prior to the second Date.";
+    error2 = "PLease enter the Birth Date.";
   }
   
   
@@ -89,6 +91,11 @@ function app7_calculateResults(e) {
   
       if (intDifYears < 0) {
         showError(error1);
+        return false;
+      }
+
+      if(strDate == '') {
+        showError(error2);
         return false;
       }
   
