@@ -94,7 +94,7 @@ function app7_calculateResults(e) {
         return false;
       }
 
-      if(strDate == '') {
+      if(document.getElementById("app7_input_id_0").value == '') {
         showError(error2);
         return false;
       }
