@@ -51,6 +51,10 @@ function app7_calculateResults(e) {
   }
   function calcage() {
     var strDate = document.getElementById("app7_input_id_0").value;
+    if(strDate == '') {
+      showError(error2);
+      return false;
+    }
     var arrDate = strDate.split("-");
     strBirthMonth = arrDate[1];
     strBirthDay = arrDate[2];
@@ -94,10 +98,7 @@ function app7_calculateResults(e) {
         return false;
       }
 
-      if(document.getElementById("app7_input_id_0").value == '') {
-        showError(error2);
-        return false;
-      }
+
   
       var strYears = "";
       var strDays = intDifDays;
