@@ -21,7 +21,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/converters/weight/"
+                href="/el/apps/converters/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -35,7 +35,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/health/bmi/"
+                href="/el/apps/health/%CE%B4%CE%BC%CF%83/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -49,7 +49,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/economy/loan/"
+                href="/el/apps/economy/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -63,7 +63,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/converters/temperature/"
+                href="/el/apps/converters/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -77,7 +77,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/words/words/"
+                href="/el/apps/words/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
                 />
     <xhtml:link
                 rel="alternate"

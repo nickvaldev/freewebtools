@@ -17,7 +17,7 @@
   </url>
   
   <url>
-    <loc>/el/apps/converters/weight/</loc>
+    <loc>/el/apps/converters/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,12 +26,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/converters/weight/"
+                href="/el/apps/converters/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/"
                 />
   </url>
   
   <url>
-    <loc>/el/apps/health/bmi/</loc>
+    <loc>/el/apps/health/%CE%B4%CE%BC%CF%83/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,12 +40,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/health/bmi/"
+                href="/el/apps/health/%CE%B4%CE%BC%CF%83/"
                 />
   </url>
   
   <url>
-    <loc>/el/apps/economy/loan/</loc>
+    <loc>/el/apps/economy/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,12 +54,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/economy/loan/"
+                href="/el/apps/economy/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/"
                 />
   </url>
   
   <url>
-    <loc>/el/apps/converters/temperature/</loc>
+    <loc>/el/apps/converters/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,12 +68,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/converters/temperature/"
+                href="/el/apps/converters/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/"
                 />
   </url>
   
   <url>
-    <loc>/el/apps/words/words/</loc>
+    <loc>/el/apps/words/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -82,7 +82,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/words/words/"
+                href="/el/apps/words/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/"
                 />
   </url>
   
@@ -192,7 +192,7 @@
   </url>
   
   <url>
-    <loc>/el/tags/%CE%B4%CE%BC%CE%B6/</loc>
+    <loc>/el/tags/%CE%B4%CE%BC%CF%83/</loc>
     <priority>0</priority>
   </url>
   
