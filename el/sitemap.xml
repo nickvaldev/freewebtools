@@ -87,6 +87,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/mathematics/%CE%B7%CE%BB%CE%B9%CE%BA%CE%AF%CE%B1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/mathematics/age/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/mathematics/%CE%B7%CE%BB%CE%B9%CE%BA%CE%AF%CE%B1/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -202,6 +216,11 @@
   </url>
   
   <url>
+    <loc>/el/tags/%CE%B7%CE%BB%CE%B9%CE%BA%CE%AF%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/el/tags/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/</loc>
     <priority>0</priority>
   </url>
@@ -218,6 +237,11 @@
   
   <url>
     <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/categories/%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
   
