@@ -12,7 +12,7 @@
     error2 = "PLease enter the Birth Date.";
   }
   
-  document.getElementById('app8_input_id_0').style.width = "30%";
+  // document.getElementById('app8_input_id_0').style.width = "30%";
 document.getElementById('app8_form').addEventListener('submit', app8_calculateResults);
 
 function app8_calculateResults(e) {
