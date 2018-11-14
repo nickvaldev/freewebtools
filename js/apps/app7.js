@@ -32,18 +32,7 @@ function app7_calculateResults(e) {
 
   calcage();
 
-  function twoDigYear(yy) {
-    yy = Number(yy);
-    if (yy < 100){
-      if (yy > 20) {
-        yy = yy + 1900
-      }else{
-        yy = yy + 2000
-      }
-    }
-    return yy;
-  }
-  
+
 
   function daysInMonth(month,year) {
     var dd = new Date(year, month, 0);

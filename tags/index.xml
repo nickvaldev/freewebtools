@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Birth</title>
+      <link>/tags/birth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/birth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bmi</title>
       <link>/tags/bmi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,6 +70,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/conversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day</title>
+      <link>/tags/day/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/day/</guid>
       <description></description>
     </item>
     

@@ -101,6 +101,20 @@
   </url>
   
   <url>
+    <loc>/apps/dates/birthday/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/dates/%CE%B7%CE%BC%CE%AD%CF%81%CE%B1%CE%B3%CE%AD%CE%BD%CE%BD%CE%B7%CF%83%CE%B7%CF%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/dates/birthday/"
+                />
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -142,6 +156,11 @@
   
   <url>
     <loc>/tags/bank/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/birth/</loc>
     <priority>0</priority>
   </url>
   
@@ -207,6 +226,16 @@
   
   <url>
     <loc>/categories/conversions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/dates/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/day/</loc>
     <priority>0</priority>
   </url>
   

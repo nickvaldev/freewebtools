@@ -38,6 +38,21 @@ function clearError(){
   document.querySelector('.alert').remove();
 }
 
+
+function twoDigYear(yy) {
+  yy = Number(yy);
+  if (yy < 100){
+    if (yy > 20) {
+      yy = yy + 1900
+    }else{
+      yy = yy + 2000
+    }
+  }
+  return yy;
+}
+
+
+
 // function navMenuHref() {
 //   let df = document.createDocumentFragment();
 //   let p = document.createElement('p');

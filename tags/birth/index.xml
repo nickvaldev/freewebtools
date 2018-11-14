@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Birth on </title>
+    <link>/tags/birth/</link>
+    <description>Recent content in Birth on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Everything is mine</copyright>
+    
+	<atom:link href="/tags/birth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculate which day of the week you were born, or any other date</title>
+      <link>/apps/dates/birthday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apps/dates/birthday/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
