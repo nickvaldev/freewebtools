@@ -69,9 +69,9 @@ function app9_calculateResults(e) {
   
   document.getElementById('app9_results_title_0').innerHTML = JsonPass[fromValue].currencyName + ' - ' + JsonPass[fromValue].id;
   document.getElementById('app9_results_title_1').innerHTML = JsonPass[toValue].currencyName + ' - ' + JsonPass[toValue].id;
-  document.getElementById('app9_results_span_content_0').textContent = input;
+  document.getElementById('app9_results_span_content_0').textContent = input.toFixed(3);
 
-  document.getElementById('app9_results_span_content_1').textContent = result;
+  document.getElementById('app9_results_span_content_1').textContent = result.toFixed(3);
   document.querySelector(".results .panel-title").innerHTML = finalResults;
 
   e.preventDefault();
