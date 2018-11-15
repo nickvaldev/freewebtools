@@ -58,14 +58,14 @@ function app9_calculateResults(e) {
     document.getElementById('app9_input_span_id_0').textContent = JsonPass[fromValue].currencySymbol;
     document.getElementById('app9_results_span_content_sign_0').textContent = JsonPass[fromValue].currencySymbol;
   } else {
-    document.getElementById('app9_input_span_id_0').innerHTML = JsonPass[fromValue].id;
-    document.getElementById('app9_results_span_content_sign_0').innerHTML = JsonPass[fromValue].id;
+    document.getElementById('app9_input_span_id_0').innerHTML = JsonPass[fromValue].id.toLowerCase() ;
+    document.getElementById('app9_results_span_content_sign_0').innerHTML = JsonPass[fromValue].id.toLowerCase() ;
   }
 
   if (typeof JsonPass[toValue].currencySymbol !== 'undefined') { 
     document.getElementById('app9_results_span_content_sign_1').textContent = JsonPass[toValue].currencySymbol;
   } else {
-    document.getElementById('app9_results_span_content_sign_1').innerHTML = JsonPass[toValue].id;
+    document.getElementById('app9_results_span_content_sign_1').innerHTML = JsonPass[toValue].id.toLowerCase() ;
   }
   
   document.getElementById('app9_results_title_0').innerHTML = JsonPass[fromValue].currencyName + ' - ' + JsonPass[fromValue].id;

@@ -720,6 +720,11 @@ button.btn--google:hover,
   
 }
 
+input[type="checkbox"] {
+  width: 50px !important;
+  border-right: 1px solid #ccc !important;
+  margin: 0 !important;
+}
 
 input[type="email"],
 input[type="number"],

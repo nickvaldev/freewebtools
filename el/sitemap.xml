@@ -129,6 +129,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/random/%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1%CE%BA%CF%89%CE%B4%CE%B9%CE%BA%CE%BF%CF%8D/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/random/pswgenerator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/random/%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1%CE%BA%CF%89%CE%B4%CE%B9%CE%BA%CE%BF%CF%8D/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -219,6 +233,21 @@
   </url>
   
   <url>
+    <loc>/el/tags/generator/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/generator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/generator/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
@@ -240,6 +269,11 @@
   
   <url>
     <loc>/el/tags/%CE%B1%CF%80%CE%BF%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%BC%CE%AE/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CE%B1%CF%83%CF%86%CE%AC%CE%BB%CE%B5%CE%B9%CE%B1/</loc>
     <priority>0</priority>
   </url>
   
@@ -289,6 +323,11 @@
   </url>
   
   <url>
+    <loc>/el/tags/%CE%BA%CF%89%CE%B4%CE%B9%CE%BA%CF%8C%CF%82/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
   </url>
@@ -330,6 +369,11 @@
   
   <url>
     <loc>/el/tags/%CF%84%CF%81%CE%AC%CF%80%CE%B5%CE%B6%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/categories/%CF%84%CF%85%CF%87%CE%B1%CE%B9%CF%8C%CF%84%CE%B7%CF%84%CE%B1/</loc>
     <priority>0</priority>
   </url>
   

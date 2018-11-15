@@ -92,6 +92,15 @@
     </item>
     
     <item>
+      <title>Generator</title>
+      <link>/tags/generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Installments</title>
       <link>/tags/installments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -101,11 +110,29 @@
     </item>
     
     <item>
+      <title>Passwords</title>
+      <link>/tags/passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/passwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Repayment</title>
       <link>/tags/repayment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/repayment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/tags/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
       <description></description>
     </item>
     

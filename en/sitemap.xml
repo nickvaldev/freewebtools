@@ -129,6 +129,20 @@
   </url>
   
   <url>
+    <loc>/apps/random/pswgenerator/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/random/%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1%CE%BA%CF%89%CE%B4%CE%B9%CE%BA%CE%BF%CF%8D/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/random/pswgenerator/"
+                />
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -274,6 +288,21 @@
   </url>
   
   <url>
+    <loc>/tags/generator/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/generator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/generator/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/health/</loc>
     <priority>0</priority>
   </url>
@@ -289,7 +318,22 @@
   </url>
   
   <url>
+    <loc>/tags/passwords/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/random/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/repayment/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/security/</loc>
     <priority>0</priority>
   </url>
   
