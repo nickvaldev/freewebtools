@@ -1,4 +1,3 @@
-
 let finalResults,error1,error2;
 if (whatLang() == "el") {
   finalResults = 'Τελικά Αποτελέσματα';
