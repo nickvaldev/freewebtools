@@ -329,12 +329,12 @@
   </url>
   
   <url>
-    <loc>/tags/words/</loc>
+    <loc>/categories/words/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/words/</loc>
+    <loc>/tags/words/</loc>
     <priority>0</priority>
   </url>
   
