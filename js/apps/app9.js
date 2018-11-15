@@ -39,6 +39,7 @@ var toEl = document.getElementById('app9_select_id_1');
 document.getElementById('app9_form').addEventListener('submit', app9_calculateResults);
 
 function app9_calculateResults(e) {
+
   var input = document.getElementById('app9_input_id_0').value;
   if (input == '') {
     showError(error2);
@@ -69,10 +70,9 @@ function app9_calculateResults(e) {
   
   document.getElementById('app9_results_title_0').innerHTML = JsonPass[fromValue].currencyName + ' - ' + JsonPass[fromValue].id;
   document.getElementById('app9_results_title_1').innerHTML = JsonPass[toValue].currencyName + ' - ' + JsonPass[toValue].id;
-  document.getElementById('app9_results_span_content_0').textContent = input.toFixed(3);
+  document.getElementById('app9_results_span_content_0').textContent = Number(input).toFixed(3);
 
   document.getElementById('app9_results_span_content_1').textContent = result.toFixed(3);
   document.querySelector(".results .panel-title").innerHTML = finalResults;
-
   e.preventDefault();
 }
