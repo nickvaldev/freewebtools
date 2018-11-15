@@ -30,5 +30,14 @@ A small river named Duden flows by their place and supplies it with the necessar
 A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</description>
     </item>
     
+    <item>
+      <title>Currency Converter</title>
+      <link>/apps/converters/currency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apps/converters/currency/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -115,6 +115,20 @@
   </url>
   
   <url>
+    <loc>/apps/converters/currency/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/converters/currency/"
+                />
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -222,10 +236,25 @@
   <url>
     <loc>/tags/conversion/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/conversion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/conversion/"
+                />
   </url>
   
   <url>
     <loc>/categories/conversions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/currency/</loc>
     <priority>0</priority>
   </url>
   

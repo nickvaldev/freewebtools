@@ -115,6 +115,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/converters/currency/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -186,6 +200,21 @@
                 rel="alternate"
                 hreflang="el"
                 href="/el/categoryclasses/"
+                />
+  </url>
+  
+  <url>
+    <loc>/el/tags/conversion/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/conversion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/conversion/"
                 />
   </url>
   
@@ -291,6 +320,11 @@
   
   <url>
     <loc>/el/tags/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AE/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CE%BD%CE%BF%CE%BC%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1/</loc>
     <priority>0</priority>
   </url>
   
