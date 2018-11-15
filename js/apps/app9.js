@@ -41,13 +41,13 @@ document.getElementById('app9_form').addEventListener('submit', app9_calculateRe
 function app9_calculateResults(e) {
   var input = document.getElementById('app9_input_id_0').value;
   if (input == '') {
-    showError(error1);
+    showError(error2);
     return false;
   }
   var fromValue = fromEl.options[fromEl.selectedIndex].value;
   var toValue = toEl.options[toEl.selectedIndex].value;
   if (fromValue == toValue) {
-    showError(error2);
+    showError(error1);
     return false;
   }
   var fromDols = JsonPass[fromValue].dol;
