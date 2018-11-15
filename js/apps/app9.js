@@ -15,7 +15,7 @@ JsonPassKeys = Object.keys(JsonPass);
 for (let i = 0; i < JsonPassKeys.length; i++) {
   let df = document.createDocumentFragment();
   var option = document.createElement("option");
-  option.innerHTML = JsonPass[JsonPassKeys[i]].currencyName;
+  option.innerHTML =JsonPass[JsonPassKeys[i]].currencyName + ' - ' + JsonPass[JsonPassKeys[i]].id;
   option.value = JsonPass[JsonPassKeys[i]].id;
   df.appendChild(option);
   var select1 = document.getElementById("app9_select_id_0");
