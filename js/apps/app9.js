@@ -1,3 +1,15 @@
+
+let finalResults,error1,error2;
+if (whatLang() == "el") {
+  finalResults = 'Τελικά Αποτελέσματα';
+  error1 = "Διαλέχτε διαφορετικά νομίσματα";
+  error2 = "Συμπληρώστε το ποσό";
+} else {
+  finalResults = "Final Results";
+  error1 = "The currencies you chose are the same. Choose differently!";
+  error2 = "Enter the amount";
+}
+
 var JsonPass = passJson;
 JsonPassKeys = Object.keys(JsonPass);
 // console.log(JsonPassKeys[0]);
@@ -21,22 +33,24 @@ for (let i = 0; i < JsonPassKeys.length; i++) {
   select2.appendChild(df);
 }
 
-
-
 var fromEl = document.getElementById('app9_select_id_0');
 
 var toEl = document.getElementById('app9_select_id_1');
 
-
-
-
 document.getElementById('app9_form').addEventListener('submit', app9_calculateResults);
-
 
 function app9_calculateResults(e) {
   var input = document.getElementById('app9_input_id_0').value;
+  if (input == '') {
+    showError(error1);
+    return false;
+  }
   var fromValue = fromEl.options[fromEl.selectedIndex].value;
   var toValue = toEl.options[toEl.selectedIndex].value;
+  if (fromValue == toValue) {
+    showError(error2);
+    return false;
+  }
   var fromDols = JsonPass[fromValue].dol;
   var toDols = JsonPass[toValue].dol;
   var result = (toDols / fromDols) * input ;
@@ -59,6 +73,7 @@ function app9_calculateResults(e) {
   document.getElementById('app9_results_span_content_0').textContent = input;
 
   document.getElementById('app9_results_span_content_1').textContent = result;
+  document.querySelector(".results .panel-title").innerHTML = finalResults;
 
   e.preventDefault();
 }
