@@ -298,16 +298,6 @@
   <url>
     <loc>/categories/conversions/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/conversions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/conversions/"
-                />
   </url>
   
   <url>
