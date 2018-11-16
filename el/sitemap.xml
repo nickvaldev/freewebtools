@@ -157,6 +157,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/converters/%CE%BC%CE%AE%CE%BA%CE%BF%CF%82/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/converters/length/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/converters/%CE%BC%CE%AE%CE%BA%CE%BF%CF%82/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -247,6 +261,21 @@
   </url>
   
   <url>
+    <loc>/el/categories/conversions/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/conversions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/categories/conversions/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/tags/generator/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -273,6 +302,21 @@
                 rel="alternate"
                 hreflang="el"
                 href="/el/tags/ip/"
+                />
+  </url>
+  
+  <url>
+    <loc>/el/tags/length/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/length/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/length/"
                 />
   </url>
   
@@ -367,12 +411,12 @@
   </url>
   
   <url>
-    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
   </url>
   
@@ -384,16 +428,6 @@
   <url>
     <loc>/el/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/"
-                />
   </url>
   
   <url>

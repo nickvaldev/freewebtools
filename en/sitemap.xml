@@ -157,6 +157,20 @@
   </url>
   
   <url>
+    <loc>/apps/converters/length/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/converters/%CE%BC%CE%AE%CE%BA%CE%BF%CF%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/converters/length/"
+                />
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -284,6 +298,16 @@
   <url>
     <loc>/categories/conversions/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/categories/conversions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/conversions/"
+                />
   </url>
   
   <url>
@@ -343,6 +367,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/ip/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/length/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/length/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/length/"
                 />
   </url>
   
@@ -419,21 +458,6 @@
   <url>
     <loc>/categories/words/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/"
-                />
   </url>
   
 </urlset>
