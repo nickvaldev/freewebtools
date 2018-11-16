@@ -115,16 +115,16 @@
   </url>
   
   <url>
-    <loc>/apps/converters/currency/</loc>
+    <loc>/apps/economy/loanbymonthly/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/"
+                href="/el/apps/economy/%CE%B4%CE%AC%CE%BD%CE%B5%CE%B9%CE%BF%CE%B2%CE%AC%CF%83%CE%B7%CE%BC%CE%B7%CE%BD%CE%B9%CE%B1%CE%AF%CF%89%CE%BD/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/apps/converters/currency/"
+                href="/apps/economy/loanbymonthly/"
                 />
   </url>
   
@@ -167,6 +167,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/apps/converters/length/"
+                />
+  </url>
+  
+  <url>
+    <loc>/apps/converters/currency/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/converters/currency/"
                 />
   </url>
   
@@ -376,6 +390,11 @@
   </url>
   
   <url>
+    <loc>/tags/loan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/mathematics/</loc>
     <priority>0</priority>
   </url>
@@ -447,6 +466,11 @@
   
   <url>
     <loc>/categories/words/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%CE%BConthly/</loc>
     <priority>0</priority>
   </url>
   

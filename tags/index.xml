@@ -137,6 +137,15 @@
     </item>
     
     <item>
+      <title>Loan</title>
+      <link>/tags/loan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/loan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Passwords</title>
       <link>/tags/passwords/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -205,6 +214,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Μonthly</title>
+      <link>/tags/%CE%BConthly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%CE%BConthly/</guid>
       <description></description>
     </item>
     
