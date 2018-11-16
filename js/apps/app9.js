@@ -1,4 +1,4 @@
-let finalResults,error1,error2;
+let finalResults,error1,error2,result;
 if (whatLang() == "el") {
   finalResults = 'Τελικά Αποτελέσματα';
   error1 = "Διαλέχτε διαφορετικά νομίσματα";
@@ -38,6 +38,10 @@ var toEl = document.getElementById('app9_select_id_1');
 
 document.getElementById('app9_form').addEventListener('submit', app9_calculateResults);
 
+
+
+
+
 function app9_calculateResults(e) {
 
   var input = document.getElementById('app9_input_id_0').value;
@@ -47,13 +51,33 @@ function app9_calculateResults(e) {
   }
   var fromValue = fromEl.options[fromEl.selectedIndex].value;
   var toValue = toEl.options[toEl.selectedIndex].value;
+
+
   if (fromValue == toValue) {
     showError(error1);
     return false;
   }
-  var fromDols = JsonPass[fromValue].dol;
-  var toDols = JsonPass[toValue].dol;
-  var result = (toDols / fromDols) * input ;
+
+  fromCurrency = encodeURIComponent(fromValue);
+  toCurrency = encodeURIComponent(toValue);
+  var query = fromCurrency + '_' + toCurrency;
+
+  $.getJSON('https://free.currencyconverterapi.com/api/v6/convert?q='
+  + query + '&compact=ultra', function(data) {
+
+    result = data[query] ;
+    result = result * input;
+     document.getElementById('app9_results_span_content_1').textContent = result.toFixed(3);  
+  }).error(function() { 
+    var fromDols = JsonPass[fromValue].dol;
+      var toDols = JsonPass[toValue].dol;
+      result = (toDols / fromDols) * input ; 
+       document.getElementById('app9_results_span_content_1').textContent = result.toFixed(3);
+  });
+  
+  
+
+
   if (typeof JsonPass[fromValue].currencySymbol !== 'undefined') {
     document.getElementById('app9_input_span_id_0').textContent = JsonPass[fromValue].currencySymbol;
     document.getElementById('app9_results_span_content_sign_0').textContent = JsonPass[fromValue].currencySymbol;
@@ -71,8 +95,6 @@ function app9_calculateResults(e) {
   document.getElementById('app9_results_title_0').innerHTML = JsonPass[fromValue].currencyName + ' - ' + JsonPass[fromValue].id;
   document.getElementById('app9_results_title_1').innerHTML = JsonPass[toValue].currencyName + ' - ' + JsonPass[toValue].id;
   document.getElementById('app9_results_span_content_0').textContent = Number(input).toFixed(3);
-
-  document.getElementById('app9_results_span_content_1').textContent = result.toFixed(3);
   document.querySelector(".results .panel-title").innerHTML = finalResults;
   e.preventDefault();
 }

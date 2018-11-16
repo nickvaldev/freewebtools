@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Address</title>
+      <link>/tags/address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/address/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Age</title>
       <link>/tags/age/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -106,6 +115,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/installments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ip</title>
+      <link>/tags/ip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ip/</guid>
       <description></description>
     </item>
     

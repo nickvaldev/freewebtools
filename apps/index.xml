@@ -99,10 +99,19 @@ A small river named Duden flows by their place and supplies it with the necessar
     
     <item>
       <title>Generation of random secure passwords</title>
-      <link>/apps/random/pswgenerator/</link>
+      <link>/apps/random/pwdgenerator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/apps/random/pswgenerator/</guid>
+      <guid>/apps/random/pwdgenerator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Is My IP Address ?</title>
+      <link>/apps/misc/ipaddress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apps/misc/ipaddress/</guid>
       <description></description>
     </item>
     

@@ -52,6 +52,13 @@ function twoDigYear(yy) {
 }
 
 
+// $.getJSON('https://cat-fact.herokuapp.com/facts', function(data) {
+//   console.log(JSON.stringify(data, null, 2));
+// });
+// $.get('http://numbersapi.com/1337/trivia?notfound=floor&fragment', function(data) {
+//   console.log(JSON.stringify(data, null, 2));
+// });
+
 
 // function navMenuHref() {
 //   let df = document.createDocumentFragment();

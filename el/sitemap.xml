@@ -133,12 +133,26 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/apps/random/pswgenerator/"
+                href="/apps/random/pwdgenerator/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
                 href="/el/apps/random/%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B1%CE%BA%CF%89%CE%B4%CE%B9%CE%BA%CE%BF%CF%8D/"
+                />
+  </url>
+  
+  <url>
+    <loc>/el/apps/misc/%CE%B4%CE%B9%CE%B5%CF%8D%CE%B8%CF%85%CE%BD%CF%83%CE%B7ip/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/misc/ipaddress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/misc/%CE%B4%CE%B9%CE%B5%CF%8D%CE%B8%CF%85%CE%BD%CF%83%CE%B7ip/"
                 />
   </url>
   
@@ -248,6 +262,21 @@
   </url>
   
   <url>
+    <loc>/el/tags/ip/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/ip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/tags/ip/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
@@ -284,6 +313,16 @@
   
   <url>
     <loc>/el/tags/%CE%B3%CE%AD%CE%BD%CE%BD%CE%B7%CF%83%CE%B7/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/categories/%CE%B4%CE%B9%CE%AC%CF%86%CE%BF%CF%81%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CE%B4%CE%B9%CE%B5%CF%8D%CE%B8%CF%85%CE%BD%CF%83%CE%B7/</loc>
     <priority>0</priority>
   </url>
   
