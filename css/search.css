@@ -1,0 +1,117 @@
+#page-search {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(17, 17, 17, 0.9);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+#page-search.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#page-search #form-search {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#page-search.visible #form-search {
+  visibility: visible;
+}
+#page-search #form-search .field {
+  display: block;
+  font-size: 21px;
+  padding: 15px 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.15);
+}
+#page-search #form-search .field::-webkit-input-placeholder {
+  color: #808080;
+}
+#page-search #form-search .field::-moz-input-placeholder {
+  color: #808080;
+}
+#page-search #form-search .field:-moz-input-placeholder {
+  color: #808080;
+}
+#page-search #form-search .field:-ms-input-placeholder {
+  color: #808080;
+}
+
+
+
+.searchinput {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  z-index: -1;
+  transition: 0.4s;
+  width: 0px !important;
+  border: 1px red !important;
+  border-radius: 7px;
+  -webkit-transition: 1s;
+  -moz-transition:  1s;
+  -ms-transition:  1s;
+  -o-transition:  1s;
+  transition:  1s !important;
+}
+
+.blog-search {
+  -webkit-transition: duration 0.3s;
+  -moz-transition: duration 0.3s;
+  -ms-transition: duration 0.3s;
+  -o-transition: duration 0.3s;
+  transition: duration 0.3s;
+}
+
+.blog-search:hover .searchinput {
+  width: 240px !important;;
+  
+}
+
+
+input[type="search"] {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  color: inherit;
+  padding: 15px 25px;
+  border: none;
+  background: #ffffff;
+  -webkit-transition: box-shadow 0.3s ease 0s;
+  -moz-transition: box-shadow 0.3s ease 0s;
+  -ms-transition: box-shadow 0.3s ease 0s;
+  -o-transition: box-shadow 0.3s ease 0s;
+  transition: box-shadow 0.3s ease 0s;
+}
+
+
+input[type="search"]:focus {
+  box-shadow: 0 0 50px rgba(17, 17, 17, 0.05);
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}

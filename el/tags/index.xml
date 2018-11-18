@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Effects</title>
+      <link>/el/tags/effects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/el/tags/effects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generator</title>
       <link>/el/tags/generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -124,6 +133,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/el/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Επεξεργασία</title>
+      <link>/el/tags/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/el/tags/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1/</guid>
       <description></description>
     </item>
     
@@ -227,11 +245,29 @@
     </item>
     
     <item>
+      <title>Φίλτρα</title>
+      <link>/el/tags/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/el/tags/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Φπα</title>
       <link>/el/tags/%CF%86%CF%80%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/el/tags/%CF%86%CF%80%CE%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Φωτογραφίες</title>
+      <link>/el/tags/%CF%86%CF%89%CF%84%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B5%CF%82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/el/tags/%CF%86%CF%89%CF%84%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B5%CF%82/</guid>
       <description></description>
     </item>
     

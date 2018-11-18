@@ -1,4 +1,3 @@
-  
         const app2_apoout = document.getElementById("app2_results_title_0");
         const app2_apooutnum = document.getElementById("app2_results_span_content_0");
         const app2_seout = document.getElementById("app2_results_title_1");

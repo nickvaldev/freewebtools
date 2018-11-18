@@ -1,0 +1,169 @@
+
+/** 05. OVERLAYS
+-------------------------------------------------- **/
+.overlay {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.overlay[data-overlay]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.overlay[data-overlay].hidden::before {
+  opacity: 0;
+  visibility: hidden;
+}
+.overlay[data-overlay]:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay * {
+  z-index: 2;
+}
+.overlay[data-overlay="10"]::before {
+  background: #111111;
+}
+.overlay[data-overlay="9"]::before {
+  background: rgba(17, 17, 17, 0.9);
+}
+.overlay[data-overlay="8"]::before {
+  background: rgba(17, 17, 17, 0.8);
+}
+.overlay[data-overlay="7"]::before {
+  background: rgba(17, 17, 17, 0.7);
+}
+.overlay[data-overlay="6"]::before {
+  background: rgba(17, 17, 17, 0.6);
+}
+.overlay[data-overlay="5"]::before {
+  background: rgba(17, 17, 17, 0.5);
+}
+.overlay[data-overlay="4"]::before {
+  background: rgba(17, 17, 17, 0.4);
+}
+.overlay[data-overlay="3"]::before {
+  background: rgba(17, 17, 17, 0.3);
+}
+.overlay[data-overlay="2"]::before {
+  background: rgba(17, 17, 17, 0.2);
+}
+.overlay[data-overlay="1"]::before {
+  background: rgba(17, 17, 17, 0.1);
+}
+.overlay[data-overlay="10"].overlay--light::before {
+  background: #ffffff;
+}
+.overlay[data-overlay="9"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.9);
+}
+.overlay[data-overlay="8"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.8);
+}
+.overlay[data-overlay="7"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.7);
+}
+.overlay[data-overlay="6"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.6);
+}
+.overlay[data-overlay="5"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.5);
+}
+.overlay[data-overlay="4"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.4);
+}
+.overlay[data-overlay="3"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.3);
+}
+.overlay[data-overlay="2"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.2);
+}
+.overlay[data-overlay="1"].overlay--light::before {
+  background: rgba(255, 255, 255, 0.1);
+}
+.overlay[data-overlay="10"].overlay--color::before {
+  background: #3333ff;
+}
+.overlay[data-overlay="9"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.9);
+}
+.overlay[data-overlay="8"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.8);
+}
+.overlay[data-overlay="7"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.7);
+}
+.overlay[data-overlay="6"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.6);
+}
+.overlay[data-overlay="5"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.5);
+}
+.overlay[data-overlay="4"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.4);
+}
+.overlay[data-overlay="3"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.3);
+}
+.overlay[data-overlay="2"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.2);
+}
+.overlay[data-overlay="1"].overlay--color::before {
+  background: rgba(51, 51, 255, 0.1);
+}
+.overlay .overlay--caption {
+  position: relative;
+  display: table-cell;
+  padding: 5vw;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.overlay .overlay--caption.top {
+  vertical-align: top;
+}
+.overlay .overlay--caption.center {
+  vertical-align: middle;
+}
+.overlay .overlay--caption.bottom {
+  vertical-align: bottom;
+}
+.overlay .overlay--caption.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.overlay .overlay--caption.hidden.top {
+  top: -25px;
+}
+.overlay .overlay--caption.hidden.center,
+.overlay .overlay--caption.hidden.bottom {
+  bottom: -25px;
+}
+.overlay:hover .overlay--caption.hidden {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay:hover .overlay--caption.hidden.top {
+  top: 0;
+}
+.overlay:hover .overlay--caption.hidden.center,
+.overlay:hover .overlay--caption.hidden.bottom {
+  bottom: 0;
+}

@@ -1,0 +1,165 @@
+/** 03. BUTTONS
+-------------------------------------------------- **/
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.btn {
+  display: inline-block;
+  position: relative;
+  height: 45px;
+  line-height: 41px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 9px;
+  font-weight: 400;
+  color: #111111;
+  padding: 0 50px;
+  letter-spacing: 0.15em;
+  border: 2px solid #d9d9d9;
+  border-radius: 100px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-calc{
+  width: 100%;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.btn:hover {
+  border-color: #808080;
+}
+input[type="submit"].btn--dark,
+input[type="reset"].btn--dark,
+input[type="button"].btn--dark,
+button.btn--dark,
+.btn.btn--dark,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
+input[type="button"].btn--primary,
+button.btn--primary,
+.btn.btn--primary,
+input[type="submit"].btn--facebook,
+input[type="reset"].btn--facebook,
+input[type="button"].btn--facebook,
+button.btn--facebook,
+.btn.btn--facebook,
+input[type="submit"].btn--twitter,
+input[type="reset"].btn--twitter,
+input[type="button"].btn--twitter,
+button.btn--twitter,
+.btn.btn--twitter,
+input[type="submit"].btn--google,
+input[type="reset"].btn--google,
+input[type="button"].btn--google,
+button.btn--google,
+.btn.btn--google {
+  color: #ffffff;
+  border-color: transparent;
+}
+input[type="submit"].btn--dark,
+input[type="reset"].btn--dark,
+input[type="button"].btn--dark,
+button.btn--dark,
+.btn.btn--dark {
+  background: #111111;
+}
+input[type="submit"].btn--dark:hover,
+input[type="reset"].btn--dark:hover,
+input[type="button"].btn--dark:hover,
+button.btn--dark:hover,
+.btn.btn--dark:hover {
+  background: #1e1e1e;
+}
+input[type="submit"].btn--white,
+input[type="reset"].btn--white,
+input[type="button"].btn--white,
+button.btn--white,
+.btn.btn--white {
+  color: #111111;
+  background: #ffffff;
+  border-color: transparent;
+}
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
+input[type="button"].btn--primary,
+button.btn--primary,
+.btn.btn--primary {
+  background: #3333ff;
+}
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+button.btn--primary:hover,
+.btn.btn--primary:hover {
+  background: #4d4dff;
+}
+input[type="submit"].btn--facebook,
+input[type="reset"].btn--facebook,
+input[type="button"].btn--facebook,
+button.btn--facebook,
+.btn.btn--facebook {
+  background: #4d70a8;
+}
+input[type="submit"].btn--facebook:hover,
+input[type="reset"].btn--facebook:hover,
+input[type="button"].btn--facebook:hover,
+button.btn--facebook:hover,
+.btn.btn--facebook:hover {
+  background: #6c8bbc;
+}
+input[type="submit"].btn--twitter,
+input[type="reset"].btn--twitter,
+input[type="button"].btn--twitter,
+button.btn--twitter,
+.btn.btn--twitter {
+  background: #00bbf2;
+}
+input[type="submit"].btn--twitter:hover,
+input[type="reset"].btn--twitter:hover,
+input[type="button"].btn--twitter:hover,
+button.btn--twitter:hover,
+.btn.btn--twitter:hover {
+  background: #26ceff;
+}
+input[type="submit"].btn--google,
+input[type="reset"].btn--google,
+input[type="button"].btn--google,
+button.btn--google,
+.btn.btn--google {
+  background: #e3401d;
+}
+input[type="submit"].btn--google:hover,
+input[type="reset"].btn--google:hover,
+input[type="button"].btn--google:hover,
+button.btn--google:hover,
+.btn.btn--google:hover {
+  background: #e9664a;
+}
+
+.btn-change{
+
+  background: rgb(86, 104, 103);
+
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition: all 0.5s ease-in-out;
+  border: 0px;
+  color: #fff;
+}
+.btn-change:first-child{
+  margin-right: 10px;
+}
+.btn-change:hover{
+  -webkit-transform: scale(1.1);
+  background: #5aaeca;
+}

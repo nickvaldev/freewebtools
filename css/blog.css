@@ -1,0 +1,100 @@
+/** 08. BLOG
+-------------------------------------------------- **/
+
+.blog-pagination {
+  text-align: center;
+}
+.blog-pagination ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.blog-pagination ul li:hover {
+  background: #e6e6e6;
+}
+.blog-pagination ul li.active {
+  color: #ffffff;
+  background: #111111;
+}
+.blog-pagination ul li a {
+  display: block;
+}
+.blog-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.comments {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.comment {
+  margin-top: 25px;
+}
+.comment:first-child {
+  margin-top: 0;
+}
+.comment .comment-content {
+  padding: 25px;
+  background: #f2f2f2;
+}
+.comment .user {
+  float: left;
+}
+.comment .user img {
+  display: block;
+  width: 60px;
+  border-radius: 100%;
+}
+.comment .desc {
+  padding-left: 100px;
+}
+.comment .comment-header {
+  margin-bottom: 15px;
+}
+.comment .name {
+  margin: 0;
+}
+.comment .date {
+  font-size: 14px;
+  color: #c3c3c3;
+}
+.comment .comments-list {
+  padding: 25px 0 0 50px;
+}
+@media (max-width: 800px) {
+  .blog-content,
+  .comments {
+    padding: 0 5vw;
+  }
+}
+@media (max-width: 550px) {
+  .comments .comment:not(:first-child) {
+    margin-top: 10px;
+  }
+  .comments .comment .user img {
+    width: 40px;
+  }
+  .comments .comment .desc {
+    padding-left: 60px;
+    font-size: 14px;
+  }
+  .comments .comment .name {
+    display: block;
+  }
+  .comments .comment .date {
+    margin-left: 0;
+  }
+  .comments .comment .comments-list {
+    padding: 10px 0 0 0;
+  }
+}

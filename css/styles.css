@@ -1786,25 +1786,6 @@ a:hover,a:focus {
     padding: 25px;
   }
 }
-/** 11. SHARE
--------------------------------------------------- **/
-.share li {
-  display: inline-block;
-  position: relative;
-}
-.share li:not(:last-child) {
-  margin-right: 15px;
-  margin-bottom: 5px;
-}
-@media (max-width: 550px) {
-  .share li {
-    display: block;
-  }
-  .share li:not(:last-child) {
-    margin: 0 0 5px 0;
-  }
-}
-
 
 
 /** 12. APP PAGE
@@ -1829,6 +1810,21 @@ a:hover,a:focus {
   border: 1px solid #ccc !important;
   border-radius: 4px;
 }
+
+
+
+
+/* app 14 */
+canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+.btn-disabled {
+  color: #fff !important;
+}
+
 
 /* .form-control {
   display: block;

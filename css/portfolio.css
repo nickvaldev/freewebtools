@@ -1,0 +1,134 @@
+/** 07. PORTFOLIO
+-------------------------------------------------- **/
+.entry .entry__image {
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.entry:hover .entry__image {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.entry .entry-cat {
+  margin-bottom: 10px;
+}
+.entry .overlay--caption {
+  padding: 50px;
+}
+@media (max-width: 550px) {
+  .entry .overlay {
+    display: none;
+  }
+}
+.filters-wrap {
+  position: relative;
+  background: #ffffff;
+}
+.filters-wrap .filters {
+  line-height: 80px;
+  padding: 0 50px;
+}
+.filters-wrap .filters li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  color: #b3b3b3;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.filters-wrap .filters li:not(:last-child) {
+  margin: 0 50px 0 0;
+}
+.filters-wrap .filters li.title {
+  font-size: 14px;
+  color: #111111;
+}
+.filters-wrap .filters li:hover {
+  color: #111111;
+}
+.filters-wrap .filters li.active {
+  color: #3333ff;
+}
+.filters-wrap .filters li.title,
+.filters-wrap .filters li.active {
+  cursor: default;
+}
+@media (max-width: 800px) {
+  .filters-wrap .filters li:not(:last-child) {
+    margin: 0 15px 0 0;
+  }
+}
+@media (max-width: 550px) {
+  .filters-wrap {
+    display: none;
+  }
+}
+.project-navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.project-navigation .nav {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: #ffffff;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.project-navigation .nav:hover {
+  width: 150px;
+}
+
+.project-navigation .nav:hover span {
+  left: 20%;
+}
+
+#piso {
+  position: absolute;top: 22%;left: 40%;display: none;
+}
+
+.show {display: block;}
+
+.project-navigation .nav span {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.project-navigation .nav.prev span {
+  border-bottom: 2px solid #111111;
+  border-left: 2px solid #111111;
+}
+.project-navigation .nav.next span {
+  border-top: 2px solid #111111;
+  border-right: 2px solid #111111;
+}
+@media (max-width: 550px) {
+  .project-navigation {
+    top: 60px;
+  }
+}

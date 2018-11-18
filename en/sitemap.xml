@@ -185,6 +185,20 @@
   </url>
   
   <url>
+    <loc>/apps/misc/imagefilter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/misc/imagefilter/"
+                />
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -335,6 +349,21 @@
   </url>
   
   <url>
+    <loc>/tags/editor/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/efeects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/filter/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/generator/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -406,6 +435,11 @@
   
   <url>
     <loc>/tags/passwords/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/photo/</loc>
     <priority>0</priority>
   </url>
   

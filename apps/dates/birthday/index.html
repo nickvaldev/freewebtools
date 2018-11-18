@@ -23,12 +23,17 @@
 <meta name="og:title" content="Calculate which day of the week you were born, or any other date | " />
 <title>Calculate which day of the week you were born, or any other date | freewebtools.ga </title>
 <link rel="icon" href="/img/favicon.png">
-
-<link rel="stylesheet" href="/css/bootstrap.min.css">
- 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
-<link href="/css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/common.css">
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Unna:400,400i,700|Montserrat:400,700|Lora:400,700">
+
+
+<link rel="stylesheet" href="/css/apps.css">
+ 
+ 
+ 
+
 
 
 </head>
@@ -170,6 +175,13 @@
                       <li><a href="/apps/converters/currency/">Currency Converter</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -233,6 +245,13 @@
                       <li><a href="/apps/mathematics/age/">Calculation the age of a person, place or anything else</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -386,6 +405,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -442,6 +468,13 @@
                       <li><a href="/apps/words/words/">Calculation of words and characters of a text</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -596,6 +629,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -631,6 +671,13 @@
                       <li><a href="/apps/health/bmi/">Calculation of the Body Mass Index (BMI)</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -806,6 +853,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -911,6 +965,16 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                      
+                      <li><a href="/apps/misc/imagefilter/">Online Photo Effects and Filters</a></li>
+                      
+                                  
                     
                               
                   </ul>
@@ -919,7 +983,7 @@
           </ul>
 
 
-</header>    
+</nav></header>    
 
 
 	
@@ -940,14 +1004,18 @@
     
      
 
-    <div class="navigation">
-        <a href='/'>
-            <button type="button" class="btn-change">Back</button>             
-        </a>
-        <button type="button" class="btn-change" data-toggle="modal" data-target="#similarApps">Similar Apps</button>
-  </div>
+<div class="navigation">
+    <a href='/'>
+     <button class="btn-modal">Back</button>
+     </a>
+    <button id="modalBtn" class="btn-modal">Similar Apps</button>
 
-  
+</div>
+
+
+
+
+    
      
 
 
@@ -957,137 +1025,158 @@
 
 
 
-<div class="modal fade" id="similarApps" tabindex="-1" role="dialog" aria-labelledby="similarAppsLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="similarAppsLabel">See other apps about : Dates <span id="categoryText"></span>  </h5>
-
-
-          </div>
-          <div class="modal-body">
-              <ul class="list-group" id="similarAppsLIst">
-                  
-                
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-                
-                
-                There are no similar apps in this category
-                
-                
-                
-                </ul>      
-          </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+<div id="simpleModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+        <span class="closeBtn">&times;</span>
+        <h4>See other apps about : Dates</h4>
     </div>
+    <div class="modal-body">
+        <ul>
+            
+            
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+            
+            
+            There are no similar apps in this category
+            
+            
+          </ul>
+
     </div>
+    
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
     <h2 class="heading">Calculation of which day of the week you were born, or any other date</h2>
     <div class="row">
      <div class="col-md-6">  
@@ -1117,7 +1206,9 @@
 
 
 
+
 <div id="calcbox">     
+
     
     <div class="form-group" style="margin-bottom: 0px;">
           
@@ -1159,25 +1250,31 @@
 
 
 
-
+  
       <div class="form-group" style="margin-top:10px">
+        
           
+
                  
                  
-             <button type="submit" class="btn btn-default btn-calc">Calculation</button>
-             
+             <button type="submit" class="btn btn-danger btn-block">Calculation</button>
+               
       </div>
-    
+
+
+       
+
+
   </div>
 
 
 
 
-            
           </form>
         </div>
       </div>
-    </div> 
+    </div>
+  
     
      
      
@@ -1220,32 +1317,37 @@
       </div>
 
 
-         
-    </div>
+          
+
+
   </div>
+</div>
 </div>
   
 
-          </div>
-      </div>
+     
       
   </div>
   
 <script src="/js/jquery.min.js"></script>
 <script src="/js/functions.js"></script>
-
-
- <script src="/js/apps/app8.js"></script>
- <script src="/js/apps/appsingle.js"></script>
- <script src="/js/bootstrap.min.js"></script>
- 
- 
-<script src="/js/SmoothScroll.js"></script>
 <script src="/js/jquery.waitforimages.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/SmoothScroll.js"></script>
 <script src="/js/isotope.pkgd.min.js"></script>
 <script src="/js/gallery.js"></script>
-<script src="/js/scripts.js"></script>
 
+ 
+
+
+<script src="/js/bootstrap.min.js"></script>
+ <script src="/js/apps/app8.js"></script>
+ <script src="/js/modal.js"></script>
+ <script src="/js/apps/appsingle.js"></script>
+ 
+
+ 
+ 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129025395-1"></script>
 <script>
@@ -1255,7 +1357,6 @@
 
   gtag('config', 'UA-129025395-1');
 </script>
-
 
 
 </body>

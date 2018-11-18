@@ -1,0 +1,53 @@
+@import url("bs.min.css");
+@import url("modal.css");
+@import url("forms.css");
+
+/* @import url("buttons.css"); */
+
+
+.panel-title {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.panel-heading{
+  background-color: #5aaeca;
+  color: #fff;
+}
+
+.input-group {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.form-control {
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+}
+
+
+
+
+.navigation {
+  text-align:center;margin-top: 40px;margin-bottom: 30px;
+}
+
+
+#calcbox {
+  text-align: center;
+}
+
+body {
+  font-family: 'Lora';
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.7;
+  overflow-y: scroll;
+  background: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Unna';
+  font-weight: 400;
+  color: #111111;
+}

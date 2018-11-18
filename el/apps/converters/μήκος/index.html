@@ -23,12 +23,17 @@
 <meta name="og:title" content="Μετατροπή Μεγεθών Μήκους | " />
 <title>Μετατροπή Μεγεθών Μήκους | freewebtools.ga </title>
 <link rel="icon" href="/img/favicon.png">
-
-<link rel="stylesheet" href="/css/bootstrap.min.css">
- 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
-<link href="/css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/common.css">
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Unna:400,400i,700|Montserrat:400,700|Lora:400,700">
+
+
+<link rel="stylesheet" href="/css/apps.css">
+ 
+ 
+ 
+
 
 
 </head>
@@ -170,6 +175,13 @@
                       <li><a href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/">Μετατροπέας Νομισμάτων</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -233,6 +245,13 @@
                       <li><a href="/el/apps/mathematics/%CE%B7%CE%BB%CE%B9%CE%BA%CE%AF%CE%B1/">Υπολογισμός της ηλικίας ενός ατόμου, ενός τόπου ή οτιδήποτε άλλου</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -386,6 +405,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -442,6 +468,13 @@
                       <li><a href="/el/apps/words/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/">Μέτρηση των λέξεων και των χαρακτήρων ενός κειμένου</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -596,6 +629,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -631,6 +671,13 @@
                       <li><a href="/el/apps/health/%CE%B4%CE%BC%CF%83/">Υπολογισμός Δείκτη Μάζας Σώματος (ΔΜΣ)</a></li>
                       
                                   
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                    
                       
                                                            
@@ -806,6 +853,13 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                                    
                     
                               
                   </ul>
@@ -911,6 +965,16 @@
                       
                                    
                                     
+                   
+                      
+                                                           
+                      
+                      
+                                   
+                      
+                      <li><a href="/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/">Δωρεάν Online Επεξεργαστής Φωτογραφιών</a></li>
+                      
+                                  
                     
                               
                   </ul>
@@ -919,7 +983,7 @@
           </ul>
 
 
-</header>    
+</nav></header>    
 
 
 	
@@ -940,14 +1004,18 @@
     
     
 
-    <div class="navigation">
-        <a href='/el'>
-            <button type="button" class="btn-change">Πισω</button>             
-        </a>
-        <button type="button" class="btn-change" data-toggle="modal" data-target="#similarApps">Παρομοιες Εφαρμογες</button>
-  </div>
+<div class="navigation">
+    <a href='/el'>
+     <button class="btn-modal">Πισω</button>
+     </a>
+    <button id="modalBtn" class="btn-modal">Παρομοιες Εφαρμογες</button>
 
-  
+</div>
+
+
+
+
+    
     
 
 
@@ -957,142 +1025,166 @@
 
 
 
-<div class="modal fade" id="similarApps" tabindex="-1" role="dialog" aria-labelledby="similarAppsLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="similarAppsLabel">Δείτε άλλες εφαρμογές σχετικά με : Μετατροπές <span id="categoryText"></span>  </h5>
-
-
-          </div>
-          <div class="modal-body">
-              <ul class="list-group" id="similarAppsLIst">
-                  
-                
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                <li class="list-group-item"><a href="/el/apps/converters/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/" >Μετατροπή Μεγεθών Βάρους</a></li>
-                
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                <li class="list-group-item"><a href="/el/apps/converters/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/" >Μετατροπή Μεγεθών Θερμοκρασίας</a></li>
-                
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                
-
-                           
-                  
-                  
-                  
-
-                  
-                <li class="list-group-item"><a href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/" >Μετατροπέας Νομισμάτων</a></li>
-                
-                  
-                
-                
-                
-                </ul>      
-          </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Κλείσιμο</button>
-        </div>
-      </div>
+<div id="simpleModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+        <span class="closeBtn">&times;</span>
+        <h4>Δείτε άλλες εφαρμογές σχετικά με : Μετατροπές</h4>
     </div>
+    <div class="modal-body">
+        <ul>
+            
+            
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+        
+             <li class="list-item"><a href="/el/apps/converters/%CE%B2%CE%AC%CF%81%CE%BF%CF%82/">Μετατροπή Μεγεθών Βάρους</a> </li> 
+            
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+        
+             <li class="list-item"><a href="/el/apps/converters/%CE%B8%CE%B5%CF%81%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%83%CE%AF%CE%B1/">Μετατροπή Μεγεθών Θερμοκρασίας</a> </li> 
+            
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+        
+             <li class="list-item"><a href="/el/apps/converters/%CE%BD%CF%8C%CE%BC%CE%B9%CF%83%CE%BC%CE%B1/">Μετατροπέας Νομισμάτων</a> </li> 
+            
+              
+            
+        
+                       
+              
+              
+              
+        
+              
+            
+            
+          </ul>
+
     </div>
+    
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
     <h2 class="heading">Μετατροπή Μεγεθών Μήκους</h2>
     <div class="row">
      <div class="col-md-6">  
@@ -1122,7 +1214,9 @@
 
 
 
+
 <div id="calcbox">     
+
     
     <div class="form-group" style="margin-bottom: 0px;">
           
@@ -1148,12 +1242,14 @@
 
 
    
-    
+     
+
       <div class="form-group">
+
             
           
           
-              
+                      
         
           
           
@@ -1259,7 +1355,7 @@
               
           
           
-              
+                      
         
           
           
@@ -1381,25 +1477,31 @@
 
 
 
-
+  
       <div class="form-group" style="margin-top:10px">
+        
           
+
                  
                  
-             <button type="submit" class="btn btn-default btn-calc">Υπολογισμος</button>
-             
+             <button type="submit" class="btn btn-danger btn-block">Υπολογισμος</button>
+               
       </div>
-    
+
+
+       
+
+
   </div>
 
 
 
 
-            
           </form>
         </div>
       </div>
-    </div> 
+    </div>
+  
     
      
     
@@ -1457,32 +1559,37 @@
       </div>
 
 
-         
-    </div>
+          
+
+
   </div>
+</div>
 </div>
   
 
-          </div>
-      </div>
+     
       
   </div>
   
 <script src="/js/jquery.min.js"></script>
 <script src="/js/functions.js"></script>
-
-
- <script src="/js/apps/app12.js"></script>
- <script src="/js/apps/appsingle.js"></script>
- <script src="/js/bootstrap.min.js"></script>
- 
- 
-<script src="/js/SmoothScroll.js"></script>
 <script src="/js/jquery.waitforimages.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/SmoothScroll.js"></script>
 <script src="/js/isotope.pkgd.min.js"></script>
 <script src="/js/gallery.js"></script>
-<script src="/js/scripts.js"></script>
 
+ 
+
+
+<script src="/js/bootstrap.min.js"></script>
+ <script src="/js/apps/app12.js"></script>
+ <script src="/js/modal.js"></script>
+ <script src="/js/apps/appsingle.js"></script>
+ 
+
+ 
+ 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129025395-1"></script>
 <script>
@@ -1492,7 +1599,6 @@
 
   gtag('config', 'UA-129025395-1');
 </script>
-
 
 
 </body>

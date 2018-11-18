@@ -101,6 +101,33 @@
     </item>
     
     <item>
+      <title>Editor</title>
+      <link>/tags/editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efeects</title>
+      <link>/tags/efeects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/efeects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filter</title>
+      <link>/tags/filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generator</title>
       <link>/tags/generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -151,6 +178,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/passwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photo</title>
+      <link>/tags/photo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/photo/</guid>
       <description></description>
     </item>
     

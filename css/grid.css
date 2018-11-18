@@ -1,0 +1,115 @@
+-------------------- **/
+/** 01. GRID
+-------------------------------------------------- **/
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 5vw;
+}
+.column {
+  float: left;
+  position: relative;
+  padding: 0 25px;
+}
+.column.col-1 {
+  width: 8.333%;
+}
+.column.col-2 {
+  width: 16.666%;
+}
+.column.col-3 {
+  width: 24.999%;
+}
+.column.col-4 {
+  width: 33.332%;
+}
+.column.col-5 {
+  width: 41.665%;
+}
+.column.col-6 {
+  width: 49.998%;
+}
+.column.col-7 {
+  width: 58.331%;
+}
+.column.col-8 {
+  width: 66.664%;
+}
+.column.col-9 {
+  width: 74.997%;
+}
+.column.col-10 {
+  width: 83.33%;
+}
+.column.col-11 {
+  width: 91.663%;
+}
+.column.col-12 {
+  width: 100%;
+}
+.column.offset-1 {
+  margin-left: 8.333%;
+}
+.column.offset-2 {
+  margin-left: 16.666%;
+}
+.column.offset-3 {
+  margin-left: 24.999%;
+}
+.column.offset-4 {
+  margin-left: 33.332%;
+}
+.column.offset-5 {
+  margin-left: 41.665%;
+}
+.column.offset-6 {
+  margin-left: 49.998%;
+}
+.column.offset-7 {
+  margin-left: 58.331%;
+}
+.column.offset-8 {
+  margin-left: 66.664%;
+}
+.column.offset-9 {
+  margin-left: 74.997%;
+}
+.column.offset-10 {
+  margin-left: 83.33%;
+}
+.column.offset-11 {
+  margin-left: 91.663%;
+}
+@media (max-width: 800px) {
+  .column {
+    float: none;
+    width: 100% !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+  }
+  .column:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+.row {
+  display: block;
+  position: relative;
+  margin: 0 -25px;
+}
+.row:not(:last-child) {
+  margin-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+.container::after,
+.row::after,
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}

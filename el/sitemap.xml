@@ -185,6 +185,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/misc/imagefilter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -197,6 +211,11 @@
                 hreflang="el"
                 href="/el/"
                 />
+  </url>
+  
+  <url>
+    <loc>/el/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -272,6 +291,11 @@
                 hreflang="el"
                 href="/el/tags/conversion/"
                 />
+  </url>
+  
+  <url>
+    <loc>/el/tags/effects/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -385,6 +409,11 @@
   </url>
   
   <url>
+    <loc>/el/tags/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/el/tags/%CE%B7%CE%BB%CE%B9%CE%BA%CE%AF%CE%B1/</loc>
     <priority>0</priority>
   </url>
@@ -470,7 +499,17 @@
   </url>
   
   <url>
+    <loc>/el/tags/%CF%86%CE%AF%CE%BB%CF%84%CF%81%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/el/tags/%CF%86%CF%80%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CF%86%CF%89%CF%84%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B5%CF%82/</loc>
     <priority>0</priority>
   </url>
   

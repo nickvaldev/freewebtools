@@ -1,5 +1,5 @@
 // app9   -    Υπολογισμός Aποπληρωμής Δανείου
-let finalResults,error1,error2;
+let finalResults,error1;
 if (whatLang() == "el") {
 	finalResults = 'Τελικά Αποτελέσματα';
 	error1 = 'Ελέγξτε τους αριθμούς που δώσατε';
