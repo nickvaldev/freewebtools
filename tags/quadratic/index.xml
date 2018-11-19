@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quadratic on </title>
+    <link>/tags/quadratic/</link>
+    <description>Recent content in Quadratic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Everything is mine</copyright>
+    
+	<atom:link href="/tags/quadratic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculation of Quadratic Equations</title>
+      <link>/apps/dates/quadratic-formula-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apps/dates/quadratic-formula-calculator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

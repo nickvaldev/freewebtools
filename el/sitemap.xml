@@ -199,6 +199,20 @@
   </url>
   
   <url>
+    <loc>/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/dates/quadratic-formula-calculator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -389,6 +403,11 @@
   </url>
   
   <url>
+    <loc>/el/tags/%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/el/categories/%CE%B4%CE%B9%CE%AC%CF%86%CE%BF%CF%81%CE%B1/</loc>
     <priority>0</priority>
   </url>
@@ -405,6 +424,11 @@
   
   <url>
     <loc>/el/tags/%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7/</loc>
     <priority>0</priority>
   </url>
   
