@@ -145,8 +145,8 @@ var DOMstrings = {
   deleteBtn: '.item__delete--btn',
   expensesPercentage: '.item__percentage',
   // dateLabel: '.budget__title--month',
-  redFocusClass: '.red-focus',
-  redFocusBtnClass: '.red',
+  // redFocusClass: '.red-focus',
+  // redFocusBtnClass: '.red',
   resultsTitle: '.results .panel-title',
 };
 
@@ -248,17 +248,17 @@ return {
   //   month = now.getMonth();
   //   document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ' ' + year;
   // },
-  changedType: function () {
-    var fields = document.querySelectorAll(
-      DOMstrings.inputType + ',' + 
-      DOMstrings.inputDescription + ',' + 
-      DOMstrings.inputValue
-      );
-      nodeListForEach(fields, function (current) {
-        current.classList.toggle( (DOMstrings.redFocusClass).replace('.',"") );
-      });
-      document.querySelector(DOMstrings.inputBtn).classList.toggle( (DOMstrings.redFocusBtnClass).replace('.',"") );
-  },
+  // changedType: function () {
+  //   var fields = document.querySelectorAll(
+  //     DOMstrings.inputType + ',' + 
+  //     DOMstrings.inputDescription + ',' + 
+  //     DOMstrings.inputValue
+  //     );
+  //     nodeListForEach(fields, function (current) {
+  //       current.classList.toggle( (DOMstrings.redFocusClass).replace('.',"") );
+  //     });
+  //     document.querySelector(DOMstrings.inputBtn).classList.toggle( (DOMstrings.redFocusBtnClass).replace('.',"") );
+  // },
   changeResultsTitle : function () {
     document.querySelector(resultsTitle).innerHTML = finalResults;
   },
@@ -286,7 +286,7 @@ var controller = (function (budgetCtrl, UiCtrl) {
 
     document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
    
-    document.querySelector(DOM.inputType).addEventListener('change', UiCtrl.changedType);
+    // document.querySelector(DOM.inputType).addEventListener('change', UiCtrl.changedType);
   }
 
 
