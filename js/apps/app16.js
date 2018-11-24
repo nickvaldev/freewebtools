@@ -339,7 +339,7 @@ var controller = (function (budgetCtrl, UiCtrl) {
     });
     // UiCtrl.displayMonth();
      setupEventListeners();
-     document.querySelector(DOM.inputType).parentNode.width = '100%';
+    //  document.querySelector(DOM.inputType).parentNode.width = '100%';
 
    }
  };		
