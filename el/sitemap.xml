@@ -372,21 +372,6 @@
   </url>
   
   <url>
-    <loc>/el/categories/misc/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/misc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/misc/"
-                />
-  </url>
-  
-  <url>
     <loc>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
@@ -497,12 +482,12 @@
   </url>
   
   <url>
-    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
+    <loc>/el/tags/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</loc>
     <priority>0</priority>
   </url>
   
@@ -528,6 +513,11 @@
   
   <url>
     <loc>/el/tags/%CE%BD%CE%BF%CE%BC%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/categories/%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
   

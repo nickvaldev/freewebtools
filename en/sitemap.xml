@@ -469,16 +469,6 @@
   <url>
     <loc>/categories/misc/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="/el/categories/misc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/misc/"
-                />
   </url>
   
   <url>
@@ -547,12 +537,12 @@
   </url>
   
   <url>
-    <loc>/tags/words/</loc>
+    <loc>/categories/words/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/words/</loc>
+    <loc>/tags/words/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title></title>
     <link>/el/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Everything is mine</copyright>
     
@@ -11,92 +11,11 @@
     
     
     <item>
-      <title></title>
-      <link>/el/categories/</link>
+      <title>Δωρεάν Online Επεξεργαστής Φωτογραφιών</title>
+      <link>/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/el/categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>/el/categories/misc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oικονομικά</title>
-      <link>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Διάφορα</title>
-      <link>/el/categories/%CE%B4%CE%B9%CE%AC%CF%86%CE%BF%CF%81%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CE%B4%CE%B9%CE%AC%CF%86%CE%BF%CF%81%CE%B1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ημερομηνίες</title>
-      <link>/el/categories/%CE%B7%CE%BC%CE%B5%CF%81%CE%BF%CE%BC%CE%B7%CE%BD%CE%AF%CE%B5%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CE%B7%CE%BC%CE%B5%CF%81%CE%BF%CE%BC%CE%B7%CE%BD%CE%AF%CE%B5%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Λέξεις</title>
-      <link>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CE%BB%CE%AD%CE%BE%CE%B5%CE%B9%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Μαθηματικά</title>
-      <link>/el/categories/%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Μετατροπές</title>
-      <link>/el/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CE%BC%CE%B5%CF%84%CE%B1%CF%84%CF%81%CE%BF%CF%80%CE%AD%CF%82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Τυχαιότητα</title>
-      <link>/el/categories/%CF%84%CF%85%CF%87%CE%B1%CE%B9%CF%8C%CF%84%CE%B7%CF%84%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CF%84%CF%85%CF%87%CE%B1%CE%B9%CF%8C%CF%84%CE%B7%CF%84%CE%B1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Υγεία</title>
-      <link>/el/categories/%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/el/categories/%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/</guid>
+      <guid>/el/apps/misc/%CE%B5%CF%80%CE%B5%CE%BE%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82/</guid>
       <description></description>
     </item>
     
