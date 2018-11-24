@@ -199,16 +199,30 @@
   </url>
   
   <url>
-    <loc>/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</loc>
+    <loc>/el/apps/mathematics/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/apps/dates/quadratic-formula-calculator/"
+                href="/apps/mathematics/quadratic-formula-calculator/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/"
+                href="/el/apps/mathematics/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/"
+                />
+  </url>
+  
+  <url>
+    <loc>/el/apps/misc/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/misc/calculate-budget/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/misc/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/"
                 />
   </url>
   
@@ -358,6 +372,21 @@
   </url>
   
   <url>
+    <loc>/el/categories/misc/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/misc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/categories/misc/"
+                />
+  </url>
+  
+  <url>
     <loc>/el/categories/o%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC/</loc>
     <priority>0</priority>
   </url>
@@ -499,6 +528,11 @@
   
   <url>
     <loc>/el/tags/%CE%BD%CE%BF%CE%BC%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/el/tags/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</loc>
     <priority>0</priority>
   </url>
   

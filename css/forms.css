@@ -61,6 +61,10 @@ select {
   -o-transition: box-shadow 0.3s ease 0s;
   transition: box-shadow 0.3s ease 0s;
 }
+select {
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+}
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,

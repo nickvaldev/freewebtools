@@ -145,10 +145,19 @@ A small river named Duden flows by their place and supplies it with the necessar
     
     <item>
       <title>Επίλυση Δευτεροβάθμιων εξισώσεων</title>
-      <link>/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</link>
+      <link>/el/apps/mathematics/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</guid>
+      <guid>/el/apps/mathematics/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Υπολογισμός Προυπολογισμού</title>
+      <link>/el/apps/misc/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/el/apps/misc/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/</guid>
       <description></description>
     </item>
     

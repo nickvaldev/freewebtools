@@ -199,16 +199,30 @@
   </url>
   
   <url>
-    <loc>/apps/dates/quadratic-formula-calculator/</loc>
+    <loc>/apps/mathematics/quadratic-formula-calculator/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="el"
-                href="/el/apps/dates/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/"
+                href="/el/apps/mathematics/%CE%B5%CF%80%CE%AF%CE%BB%CF%85%CF%83%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1%CF%82-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7%CF%82/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/apps/dates/quadratic-formula-calculator/"
+                href="/apps/mathematics/quadratic-formula-calculator/"
+                />
+  </url>
+  
+  <url>
+    <loc>/apps/misc/calculate-budget/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/apps/misc/%CF%80%CF%81%CE%BF%CF%85%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/apps/misc/calculate-budget/"
                 />
   </url>
   
@@ -280,6 +294,11 @@
                 hreflang="en"
                 href="/tags/bmi/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tags/budget/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -450,6 +469,16 @@
   <url>
     <loc>/categories/misc/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="/el/categories/misc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/misc/"
+                />
   </url>
   
   <url>

@@ -145,10 +145,19 @@ A small river named Duden flows by their place and supplies it with the necessar
     
     <item>
       <title>Calculation of Quadratic Equations</title>
-      <link>/apps/dates/quadratic-formula-calculator/</link>
+      <link>/apps/mathematics/quadratic-formula-calculator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/apps/dates/quadratic-formula-calculator/</guid>
+      <guid>/apps/mathematics/quadratic-formula-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculation of Budget</title>
+      <link>/apps/misc/calculate-budget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/apps/misc/calculate-budget/</guid>
       <description></description>
     </item>
     

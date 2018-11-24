@@ -84,8 +84,7 @@ function app15_calculateResults(e) {
   par += sign;
   par += text7 + " " + text;
   par += "$ x_{1,2} = {"+ disNext +"} $";
-
-
+  
   sessionStorage.setItem('par', par);
   sessionStorage.setItem('roots', roots);
   sessionStorage.setItem('a', a );
